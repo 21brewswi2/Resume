@@ -25,6 +25,24 @@ a simple static site using pelican and github pages.
 1. Open Command Line
 2. Install Pelican using command python -m pip install "pelican[markdown]"
 
+#### Creating the site
+1. Open command line
+2. Use the command mkdir site to make a folder
+3. Change directory to the new folder
+4. Run the command pelican-quickstart
+5. 
+
+#### Adding content 
+1.
+
+#### Create a git repository
+1.
+2.
+3.
+4.
+5.
+
+
 
 ## FAQ
 
