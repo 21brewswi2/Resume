@@ -11,18 +11,20 @@ a simple static site using pelican and github pages.
 
 * Modern Windows OS  
 
-*  GIT  
+* GIT  
 
-*  
+* 
 
 ## Instructions
 #### Downloading Python
 1. Navigate to the download page [Python](https://www.python.org/downloads/)
-2. Download the correct version
+2. Download the correct version for your OS
 3. Check the box for add Python 3.8 to path 
 ![Python install example](https://docs.python.org/3/_images/win_installer.png)
 #### Installing Pelican
-1. 
+1. Open Command Line
+2. Install Pelican using command python -m pip install "pelican[markdown]"
+
 
 ## FAQ
 
