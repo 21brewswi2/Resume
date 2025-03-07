@@ -2,8 +2,8 @@
 
 
 ## Purpose  
-This guide will walk you through the basics of markdown, and how to leverage those skills to create  
-a simple static site using Pelican and github pages.
+This guide will walk you through the basic steps to create and deploy a static site using tools like Pelican, GitHub Pages, and GitHub desktop.
+
 
 ## Prerequisites
 To effectively follow this instruction set, it is required that the user has a basic understanding of how to use the command line.  
@@ -21,7 +21,7 @@ Other steps will be explained in a list format, making the creation of a webpage
 #### Installing Pelican
 1. Open Command Line
 2. Install Pelican using command ``python -m pip install pelican[markdown]``
-
+> Pelican's relative ease of use and ability to quickly translate markup languages to HTML fufills Etter's recommendation of using lightweight markup, and static sites.
 #### Installing GitHub Desktop
 1. Navigate to download page [GitHubDesktop](https://desktop.github.com/download/)
 2. Create a GitHub account.
@@ -81,23 +81,31 @@ It is my reccomendation that a new user make their repository using GitHub deskt
 6. Select deploy from a branch
 7. Select pages as your branch to be deployed from
 8. Visit your now public site, and verify that everything is correct
-
+>
 
 
 ## Resources
 * [Markdown Tutorial](https://commonmark.org/help/tutorial/)
 * [Pelican Quickstart Guide](https://docs.getpelican.com/en/latest/quickstart.html)
-* 
+* [GitHub Pages Quickstart](https://docs.github.com/en/pages/quickstart)
+* [GitHub Desktop Quickstart](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
+* [Fixing broken Environment Variables](https://www.youtube.com/watch?v=Y2q_b4ugPWk)
 ## FAQ
 
 * My Python or Pelican commands are not recognized in command line  
-    *This issue is likely due to missing enviroment variables, see the section on fixing enviroment variables below*
+    *This issue is likely due to missing enviroment variables,a simple guide to enviroment variables in in the resources section, otherwise uninstall python, and reinstall*
 
 * My sites pelican themes appear locally but not in github pages  
  *to fix an error of this type, make sure that you have a seperate branch for your site, rather than publishing directly from main*
 
 * I changed the markdown files, but my site still appears the same  
- *this is typically because the site needs to be regenerated, this can be done with the command "pelican content"*
+ *this is typically because the site needs to be regenerated, this can be done with the command ``pelican content``. Alternatively this can mean the you still need to push the changes to GitHub if you are viewing the live site*
+ 
+ * I get a 404 Error when trying to view my site on GitHub Pages  
+  *Usually this is because a wrong, or improperly formatted branch has been deployed, check that only the output folder contents are in the branch that is deployed.*
+  
+* My images won't display on the GitHub Pages site  
+    *Ensure that all images used are being hosted and linked to online somewhere, or are being properly referenced and are uploaded to GitHub*
 
 ## Credits
 
